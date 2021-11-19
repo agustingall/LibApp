@@ -1,0 +1,61 @@
+
+
+
+.slider{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider img{
+    width: 75%;
+    height: 75%;
+    border-radius: 2em;
+
+}
+
+
+.frase{
+    background-color: #032541;
+    width: 100%;
+    height: 41vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase-texto{
+    text-align: center;
+    color: #D4CC8E;
+    font-size: 1.8em;
+    width: 50%;
+    font-family: 'Arvo', serif;
+}
+
+.autor-frase{
+    margin-top: 1em;
+    color: #9A8ED4;
+    font-size: 1.5em;
+    list-style: all;
+}
+
+
+.article-icon{
+    display: flex;
+    font-size: 1em;
+    align-items: center;
+    
+}
+
+.article-icon p{
+    width: fit-content;
+}
+
+.article-icon .nav-svg { 
+    font-size: 2.5em;
+    margin-right: .3em;
+ }
+

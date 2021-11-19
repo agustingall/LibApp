@@ -1,0 +1,70 @@
+
+section{
+    padding:0 10%;
+    margin: 3em 0;
+    }
+
+.section-title{
+    color:  #032541;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    margin-bottom: 1.5em;
+}
+
+
+.article-container{
+    display: grid;
+    grid-column-gap: 10%;
+    grid-row-gap: 3.5em ;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+
+
+.libro{
+    min-height: fit-content;
+}
+
+.libro img{
+    width: 50%;
+}
+
+.libro > p {
+    margin-top: .8em;
+    max-height: 10.8em;
+    overflow: hidden;
+}
+
+.titulo{
+    color:  #11324D;
+    font-family: 'Quicksand', cursive;
+    font-size: 1.6em;
+}
+
+.autor{
+    color: #0F52BA;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.descripcion{
+    color:  #334257;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9em;
+}
+
+.precio{
+    color: #064420;
+    font-size: 18px;
+}
+
+.info{
+    align-items: center;
+    background-color: #032541;
+    color:  #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    padding:  5%  10%;
+    row-gap: 3rem;
+    column-gap: 10rem;
+}

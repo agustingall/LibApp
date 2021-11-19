@@ -1,0 +1,37 @@
+section{
+    margin: 3em 0;
+    padding:0 10%;
+    }
+
+.section-title{
+    color:  #0F52BA;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.article-container{
+    display: grid;
+    grid-column-gap: 4em;
+    grid-row-gap: 3em ;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+}
+
+.article-img{
+    
+    width: 75%;
+}
+
+.article-img img{
+    border-radius: 1.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.article-p{
+    color:  #032541;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2.5px;
+    padding-top: 1em;
+    width: 90%;
+}

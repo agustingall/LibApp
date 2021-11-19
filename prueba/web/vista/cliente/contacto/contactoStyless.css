@@ -1,0 +1,73 @@
+main{
+    padding: 2em 10%;
+}
+
+h2{
+    color: #345B63;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.3em;
+}
+
+.container{
+    display: grid;
+    grid-column-gap: 7em;
+    grid-row-gap: 3em ;
+    grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+}
+
+label{
+    color: #345B63;
+    font-size: .8em;
+    margin-bottom: 1em;
+    position: relative;
+    bottom: .6em;
+}
+
+
+input, textarea, select{
+    width: -webkit-fill-available;
+    border: #949494 solid 1px;
+    border-radius: .5em;
+}
+
+
+input, select{
+    
+    height: 4em;
+}
+
+textarea{
+    height: 8em;
+    
+}
+
+input, textarea, select {
+    padding-left: 1em ;
+    color: #345B63;
+}
+
+input:focus, textarea:focus{
+    outline-color: #345B63;;
+}
+
+textarea {
+    padding-top: 1em ;
+}
+
+button{
+    padding: .3em 1em;
+    width: fit-content;
+    border-radius: .5em;
+    border: 1px solid #053742;
+}
+
+#submit{
+    display: flex;
+    align-items: center;
+}
+
+#submit svg{
+    height : 1.4em;
+    width: 1.4em;
+    padding-left: .4em;
+}

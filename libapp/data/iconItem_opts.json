@@ -1,0 +1,21 @@
+{
+    "items" : [
+        {
+            "icon"  : "car_rental_outlined ",
+            "texto" : "Envio a todo el pais"
+        },
+        {
+            "icon"  : "departure_board_outlined",
+            "texto" : "Retira tu pedido cuando quieras"
+        },
+        {
+            "icon"  : "credit_card",
+            "texto" : "Pagá con tus tarjetas de crédito y débito"
+        },
+        {
+            "icon"  : "check_circle_outline_rounded",
+            "texto" : "Compra Protegida"
+        }
+    ]
+
+}
